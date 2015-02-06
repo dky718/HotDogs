@@ -13,6 +13,9 @@
 		3D1DFE2E1A8546080065BA7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DFE2D1A8546080065BA7F /* Images.xcassets */; };
 		3D1DFE311A8546080065BA7F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DFE2F1A8546080065BA7F /* LaunchScreen.xib */; };
 		3D1DFE3D1A8546080065BA7F /* HotDogsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DFE3C1A8546080065BA7F /* HotDogsTests.swift */; };
+		3D1DFE491A8546C50065BA7F /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DFE461A8546C50065BA7F /* background@2x.png */; };
+		3D1DFE4A1A8546C50065BA7F /* hotDogHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DFE471A8546C50065BA7F /* hotDogHighlighted@2x.png */; };
+		3D1DFE4B1A8546C50065BA7F /* hotDogNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DFE481A8546C50065BA7F /* hotDogNormal@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		3D1DFE361A8546080065BA7F /* HotDogsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotDogsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1DFE3B1A8546080065BA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D1DFE3C1A8546080065BA7F /* HotDogsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDogsTests.swift; sourceTree = "<group>"; };
+		3D1DFE461A8546C50065BA7F /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "../C4QResources-master/background@2x.png"; sourceTree = "<group>"; };
+		3D1DFE471A8546C50065BA7F /* hotDogHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hotDogHighlighted@2x.png"; path = "../C4QResources-master/hotDogHighlighted@2x.png"; sourceTree = "<group>"; };
+		3D1DFE481A8546C50065BA7F /* hotDogNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hotDogNormal@2x.png"; path = "../C4QResources-master/hotDogNormal@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 		3D1DFE231A8546070065BA7F /* HotDogs */ = {
 			isa = PBXGroup;
 			children = (
+				3D1DFE461A8546C50065BA7F /* background@2x.png */,
+				3D1DFE471A8546C50065BA7F /* hotDogHighlighted@2x.png */,
+				3D1DFE481A8546C50065BA7F /* hotDogNormal@2x.png */,
 				3D1DFE261A8546080065BA7F /* AppDelegate.swift */,
 				3D1DFE281A8546080065BA7F /* ViewController.swift */,
 				3D1DFE2A1A8546080065BA7F /* Main.storyboard */,
@@ -192,8 +201,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D1DFE4B1A8546C50065BA7F /* hotDogNormal@2x.png in Resources */,
 				3D1DFE2C1A8546080065BA7F /* Main.storyboard in Resources */,
 				3D1DFE311A8546080065BA7F /* LaunchScreen.xib in Resources */,
+				3D1DFE491A8546C50065BA7F /* background@2x.png in Resources */,
+				3D1DFE4A1A8546C50065BA7F /* hotDogHighlighted@2x.png in Resources */,
 				3D1DFE2E1A8546080065BA7F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
